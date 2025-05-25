@@ -6,7 +6,7 @@ This is a data visualization project analyzing various aspects of Netflix's view
 
 ## 📁 Project Structure
 
-netflix-viewing-trends/
+'''netflix-viewing-trends/
 │
 ├── data/
 │ ├── raw/ # Raw datasets downloaded from Kaggle
@@ -23,7 +23,7 @@ netflix-viewing-trends/
 │ └── eda_netflix.ipynb # Exploratory Data Analysis and visualization
 │
 ├── .venv/ # Python virtual environment for package management
-└── README.md
+└── README.md'''
 
 
 ---
