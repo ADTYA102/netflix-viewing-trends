@@ -3,25 +3,11 @@
 This is a data visualization project analyzing various aspects of Netflix's viewing patterns, revenue, and content distribution. The project was built entirely using Jupyter Notebooks in Visual Studio Code, powered by a Python virtual environment (`.venv`).
 
 ---
-<details> <summary><strong>✅ Click to expand — Copy this into README.md</strong></summary>
 ## 📁 Project Structure
-netflix-viewing-trends/
-├── data/
-│ ├── raw/ # Raw datasets downloaded from Kaggle
-│ │ ├── MoviesOnStreamingPlatforms_updated.csv
-│ │ ├── Netflix Revenue updated.csv
-│ │ └── TV_Shows.csv
-│ └── processed/ # Cleaned datasets saved after preprocessing
-│ ├── MoviesOnStreamingPlatforms_cleaned.csv
-│ ├── Netflix Revenue updated_cleaned.csv
-│ └── TV_Shows_cleaned.csv
-├── notebooks/
-│ ├── data_cleaning.ipynb # Handles all data cleaning and preprocessing
-│ └── eda_netflix.ipynb # Exploratory Data Analysis and visualization
-├── .venv/ # Python virtual environment for package management
-└── README.md
-</details>
+![ChatGPT Image May 25, 2025, 06_43_30 PM](https://github.com/user-attachments/assets/1b4b0597-43ab-4fb9-aee1-b016bd14a666)
 ---
+
+
 
 ## ⚙️ How it works
 
