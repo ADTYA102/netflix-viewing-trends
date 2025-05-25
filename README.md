@@ -8,7 +8,6 @@ This is a data visualization project analyzing various aspects of Netflix's view
 ---
 
 
-
 ## ⚙️ How it works
 
 1. **Data Cleaning**  
@@ -27,6 +26,22 @@ This is a data visualization project analyzing various aspects of Netflix's view
 
 ---
 
+## Setup Instructions
+⚠️ The .venv folder (Python virtual environment) is not included in this repository, as it's generally not pushed to GitHub for size and portability reasons.
+
+## Step 1: Create a new virtual environment
+python -m venv .venv
+
+## Step 2: Activate the environment
+## For Windows:
+.venv\Scripts\activate
+## For macOS/Linux:
+source .venv/bin/activate
+
+## Step 3: Install the required dependencies
+pip install -r requirements.txt
+
+---
 ## 📊 Datasets Used
 
 All datasets were sourced from Kaggle:
@@ -57,8 +72,3 @@ All datasets were sourced from Kaggle:
 
 ---
 
-## ✨ Author
-
-Aditya  
-Final Year B.Tech Student  
-Data Visualization Mini-Project (2025)
