@@ -51,19 +51,89 @@ All datasets were sourced from Kaggle:
 
 ---
 
-## ✅ Rubric Coverage
-
-| Criteria                                    | Covered in Notebook                |
-|--------------------------------------------|------------------------------------|
-| Cleaning and handling missing values       | `data_cleaning.ipynb`              |
-| Feature selection and engineering          | `data_cleaning.ipynb`, `eda_netflix.ipynb` |
-| Ensuring data integrity and consistency    | `data_cleaning.ipynb`              |
-| Summary statistics and insights            | `eda_netflix.ipynb`                |
-| Identifying patterns, trends, and anomalies| `eda_netflix.ipynb`                |
-| Handling outliers and data transformations | `data_cleaning.ipynb`              |
-| Initial visual representation              | `eda_netflix.ipynb`                |
 
 ---
+
+## 📦 Datasets Used
+
+1. **Movies on Streaming Platforms** – Contains details about various movies across platforms.
+2. **Netflix Revenue Data** – Tracks quarterly revenue growth from different regions over time.
+
+---
+
+## 🔧 Data Cleaning (`data_cleaning.ipynb`)
+
+Key preprocessing steps:
+- Handled **missing values** and **duplicates**
+- Renamed and standardized **column names**
+- Unified **date and rating formats** for consistency
+- Cleaned numerical and categorical data
+
+📸 _[Screenshot of cleaned dataframe/code in presentation]_
+
+---
+
+## 🔍 Exploratory Data Analysis (`Final_Eda_Netflix.ipynb`)
+
+### 1. **Revenue Trends**
+- 📈 Netflix's revenue has seen **steady global growth**, especially in **North America and EMEA**.
+- Revenue peak aligned with the **COVID-19 pandemic**, indicating increased digital consumption.
+
+### 2. **Genre & Content Insights**
+- 🎬 Most common genres on Netflix include **Drama**, **Comedy**, and **Documentary**.
+- **Content rating** analysis shows Netflix has a large library of **PG-13** and **TV-MA** content.
+
+### 3. **Distribution by Platform**
+- Netflix leads with a large collection of content compared to other platforms like **Hulu** and **Prime Video**.
+
+### 4. **Runtime & Year of Release**
+- Runtime distributions show a focus on content under **2 hours**.
+- Spike in new releases between **2010–2020**, aligning with Netflix’s global expansion.
+
+🖼️ _[2–3 Visuals from Final_Eda_Netflix.ipynb]_
+
+---
+
+## 🎨 Data Visualization
+
+We used:
+- `matplotlib` and `seaborn` for static plots
+- `plotly` for interactive charts
+- Clear labeling and annotations for storytelling
+
+📌 Visuals included:
+- Line charts, histograms, bar plots, scatter plots, and heatmaps
+
+---
+
+## 📚 Libraries Used
+
+- `pandas`
+- `numpy`
+- `matplotlib`
+- `seaborn`
+- `plotly`
+- `missingno`
+
+---
+
+## 💡 Key Insights Summary
+
+- **Steady revenue growth** with North America being the largest contributor.
+- **PG-13** and **TV-MA** dominate the content ratings.
+- **Drama and Comedy** are the most preferred genres.
+- Netflix has significantly **more content** than other platforms.
+
+These insights can guide **content strategy, user segmentation, and platform investments**.
+
+---
+
+## 🧑‍💻 Developed By
+
+Aditya and team 
+
+---
+
 
 ## 📌 Notes
 
