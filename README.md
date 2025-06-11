@@ -76,10 +76,62 @@ We used:
 ---
 
 
-## 📦 Datasets Used
+## 📊 Datasets Used
 
-1. **Movies on Streaming Platforms** – Contains details about various movies across platforms.
-2. **Netflix Revenue Data** – Tracks quarterly revenue growth from different regions over time.
+### **1. Movies on Streaming Platforms**
+File: MoviesOnStreamingPlatforms_updated.csv
+
+Description:
+This dataset provides metadata about a large collection of movies across major streaming platforms including Netflix, Hulu, Prime Video, and Disney+.
+
+Key Features:
+
+Movie titles, release years, runtime
+
+Availability flags for each platform
+
+IMDb and Rotten Tomatoes ratings
+
+Age certifications and genres
+
+Purpose in Project:
+Filtered specifically for Netflix content to analyze genre popularity, age rating distribution, and viewer preferences.
+
+### **2. Netflix Revenue Data**
+File: Netflix Revenue updated.csv
+
+Description:
+Contains quarterly revenue data for Netflix, segmented by different global regions. It shows how Netflix's income has evolved over time.
+
+Key Features:
+
+Time period (quarter/year)
+
+Revenue figures by region: US & Canada, EMEA, Latin America, and APAC
+
+Total global revenue
+
+Purpose in Project:
+Used to visualize revenue trends, compare growth across regions, and understand market dynamics.
+
+### **3. TV Shows on Netflix**
+File: TV_Shows.csv
+
+Description:
+This dataset focuses on Netflix Original TV shows, including details about their genre, runtime, target audience, and user engagement.
+
+Key Features:
+
+Title, type (e.g., scripted, reality)
+
+Genres and tags
+
+Seasons and episodes
+
+Target age group and release year
+
+Purpose in Project:
+Complemented the movies dataset by adding insights from Netflix’s TV content. Enabled genre comparison, popularity trends, and audience segmentation for TV shows.
 
 ---
 
@@ -153,6 +205,7 @@ Other notable genres include Action, Horror, and Crime.
 
 ![image](https://github.com/user-attachments/assets/5f9edaf5-26b3-4a26-98de-df2e9bcd15b9)
 
+---
 
 ## **TV Shows Analysis**
 
