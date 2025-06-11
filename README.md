@@ -43,14 +43,6 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 ---
-## 📊 Datasets Used
-
-All datasets were sourced from Kaggle:
-- **MoviesOnStreamingPlatforms_updated.csv**
-- **Netflix Revenue updated.csv**
-- **TV_Shows.csv**
-
----
 
 ## 🎨 Data Visualization
 
@@ -77,6 +69,11 @@ We used:
 
 
 ## 📊 Datasets Used
+
+### All datasets were sourced from Kaggle:
+- **MoviesOnStreamingPlatforms_updated.csv**
+- **Netflix Revenue updated.csv**
+- **TV_Shows.csv**
 
 ### **1. Movies on Streaming Platforms**
 File: MoviesOnStreamingPlatforms_updated.csv
